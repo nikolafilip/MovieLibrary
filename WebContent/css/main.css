@@ -1,0 +1,171 @@
+  .container {
+      max-width: 70%;
+  }
+  
+  .basket {
+      background-color: #fff;
+      position: relative;
+      padding-top: 60px;
+  }
+  
+  thead tr {
+      border-bottom: 2px solid lightgray;
+      border-top: 1px solid lightgray;
+  }
+  
+  tbody tr {
+      border-bottom: 1px solid lightgray;
+      border-top: 1px solid lightgray;
+  }
+  
+  table {
+      width: 100%;
+  }
+  
+  .column1 {
+      width: 20%;
+      padding-left: 20px;
+  }
+  
+  .column2 {
+      width: 40%;
+  }
+  
+  .column3 {
+      width: 40%;
+  }
+  
+  .basket-head th {
+      padding-top: 18px;
+      padding-bottom: 18px;
+      left: 0;
+  }
+  
+  .basket-body td {
+      padding-top: 16px;
+      padding-bottom: 16px;
+  }
+  
+  .basket-body tr:nth-child(odd) {
+      background-color: rgb(242, 242, 242);
+  }
+  
+  input {
+      border-radius: 5px;
+      padding: 2px 5px 5px 10px;
+      border: 1px solid;
+      color: gray;
+      border-color: lightgrey;
+      margin-bottom: 10px;
+      width: 80%;
+      height: 90%;
+  }
+  
+  input:focus {
+      outline: none;
+      border-color: #9ecaed;
+      box-shadow: 0 0 10px #9ecaed;
+  }
+  
+  .text-center {
+      padding-top: 10px;
+      margin-bottom: 20px;
+  }
+  
+  input[type=number]:not(:focus) {
+      -moz-appearance: textfield;
+  }
+  
+  #add-movie {
+      line-height: 17px;
+      border-radius: 5px;
+      width: 100%;
+      height: 90%;
+      border: none;
+      background-color: rgb(0, 119, 253);
+      color: white;
+  }
+  
+  #add-movie:hover {
+      background-color: rgb(0, 101, 216);
+  }
+  
+  #add-movie:active {
+      border: 3px solid rgb(115, 207, 255);
+  }
+  
+  #movie-price,
+  .usd {
+      float: left;
+  }
+  
+  #movie-price {
+      border-top-right-radius: 0;
+      border-bottom-right-radius: 0;
+  }
+  
+  .usd {
+      border: 1px solid;
+      color: gray;
+      border-color: lightgrey;
+      width: 10%;
+      height: 90%;
+      background-color: rgb(242, 242, 242);
+      text-align: center;
+      padding-top: 1%;
+  }
+  
+  .price-wrapper {
+      height: 100%;
+  }
+  
+  .sum-wrapper {
+      margin-top: 20px;
+      line-height: 10px;
+  }
+  
+  .total {
+      float: right;
+      clear: both;
+      width: 100%;
+      margin-bottom: 10px;
+  }
+  
+  .total-value {
+      float: right;
+      width: 50%;
+      text-align: left;
+  }
+  
+  .red {
+      color: red;
+  }
+  
+  .upper-border {
+      border-top: 1px solid lightgray;
+      padding-top: 15px;
+  }
+  
+  @media screen and (max-width: 1200px) {
+      .usd {
+          font-size: 13px;
+          padding-top: 7px;
+      }
+  }
+  
+  @media screen and (max-width: 992px) {
+      .usd {
+          width: 15%;
+          font-size: 14px;
+          padding-top: 7px;
+      }
+      #movie-price {
+          width: 85%;
+      }
+      #movie-title {
+          width: 100%;
+      }
+      #add-movie {
+          height: 40px;
+      }
+  }
